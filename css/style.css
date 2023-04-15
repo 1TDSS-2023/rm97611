@@ -104,3 +104,11 @@ body{
     display: block;
     max-width: 9%;
 }
+
+/* breakpoint */
+
+@media (max-width: 1500px) {
+    body{
+        background-color: aqua;
+    }
+}
