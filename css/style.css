@@ -1,3 +1,7 @@
+@import url("./cabecalho.css");
+@import url("./conteudo.css");
+@import url("./rodape.css");
+
 *{
     margin: 0;
     padding: 0;
@@ -8,107 +12,27 @@ body{
     font-size: 10px;
 }
 
-.cabecalho {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    background-color: black;
-}
-
-.cabecalho nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 60vw;
-    height: 100%;
-    flex-wrap: wrap;
-}
-
-.cabecalho img {
-    max-width: 30%;
-    display: block;
-    width: 30%;
-}
-
-.cabecalho a {
-    text-decoration: none;
-    font-size: 5em;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
-    'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 700;
-    color: white;
-    padding: 20% 0;
-}
-
-.cabecalho a:hover {
-    background-color: white;
-    color: black;
-}
-
-.conteudo {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.conteudo img{
-    display: flex;
-    max-width: 100%;
-}
-
-.conteudo > div{
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 300px;
-    font-size: 2rem;
-}
-
-
 .tit-sec {
     text-align: center;
     margin: 2vh 0;
     font-size: 2rem;
 }
 
-.rodape{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    background-color: #d9d9d9;
-
-}
-
-.rodape h2 {
-    font-size: 2rem;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.rodape nav{
-    flex-grow: 6;
-    display: flex;
-    justify-content: flex-end;
-    width: 100vw;
-    height: 1vh;
-}
-
-.rodape a{
-    display: inline-block;
-    flex-grow: 1;
-    text-align: center;
-    margin-left: 10%;
-}
-
-.rodape img{
-    display: block;
-    max-width: 9%;
-}
-
 /* breakpoint */
 
-@media (max-width: 1500px) {
-    body{
-        background-color: grey;
+@media (max-width: 735px) {
+    .cabecalho {
+        flex-direction: column;
+    }
+
+    .cabecalho nav{
+        flex-wrap: nowrap;
+
+    }
+
+    .cabecalho a{
+        padding: 5%;
+        font-size: 7vw;
+
     }
 }
