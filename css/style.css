@@ -18,6 +18,31 @@ body{
     font-size: 2rem;
 }
 
+
+table{
+    border-collapse: collapse;
+    margin:5% auto;
+    width: 53vw;
+    height: 50vh;
+}
+
+th, td{
+    border: solid 1px #dddddd;
+    padding: 8px;
+}
+
+tr:nth-child(odd){ /* selecionando todos que sao impares e mudando a cor*/
+    background-color: #cccccc;
+}
+
+tr:hover{ 
+    background-color: #191010b3;
+}
+
+td[colspan]{ /* colocando o texto de 2 colunas no centro */
+    text-align: center;
+}
+
 /* breakpoint */
 
 @media (max-width: 735px) {
