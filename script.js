@@ -16,4 +16,8 @@ btn.addEventListener("click", function(){
     b = Math.round(Math.random() * 255)
 
     btn.setAttribute("style", `background-color:rgb(${r}, ${g}, ${b});`);
+
 });
+
+const h2Element = document.querySelector(".tit-sec")
+console.log(h2Element)
