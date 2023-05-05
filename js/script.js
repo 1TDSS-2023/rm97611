@@ -20,3 +20,15 @@ btn.addEventListener("click", function(){
 
 
 });
+
+// pegando img do html
+
+const imgElements = [...document.getElementsByTagName("img")] // criando array com as imagens
+console.log(imgElements)
+
+
+imgElements.forEach(img => {
+    console.log(img.setAttribute("width", "10%"))
+})
+
+const pElements = document.querySelectorAll("p")
