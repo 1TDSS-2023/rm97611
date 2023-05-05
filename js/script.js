@@ -17,7 +17,6 @@ btn.addEventListener("click", function(){
 
     btn.setAttribute("style", `background-color:rgb(${r}, ${g}, ${b});`);
 
-});
 
-const h2Element = document.querySelector(".tit-sec")
-console.log(h2Element)
+
+});
