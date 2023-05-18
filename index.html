@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <script src="script.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MEU-SITE</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+    
+    <script src="./js/script.js" defer></script>
 
 </head>
+
 <body>
-    
+
     <header class="cabecalho">
-        <img src="./img/logo.png" alt="monitor">
+        <img src="./img/logo.png" alt="Monitor de computador">
         <nav>
             <a href="#">Home</a>
             <a href="#">Animais</a>
@@ -20,43 +23,92 @@
         </nav>
     </header>
 
-    <h2 class="tit-sec">Secao de Fotos</h2>
+    <h2 class="tit-sec">Seçao de Fotos</h2>
 
-    <button value="Click" id="meu-btn">Click</button>
+    <!-- <button onclick="alert(this.innerText)">Olá Mundo</button> -->
+
+    
+    <button value="click" id="meu-btn">Click</button>
+    
+    <script>
+        //COMENTÁRIO DE LINHA
+        /*
+            COMENTÁRIO DE BLOCO
+        */
+
+        // //Declarar variáveis com a palavra reservada ( var ) :
+
+        // var nr1 = 10;
+        // var nr2 = 5;
+
+        // //Imprimindo variáveis com a classe ( console ):
+        // //VAMOS CRIAR AS OPERAÇÕES ARITMÉTICAS BÁSICAS
+
+        // //ADIÇÃO
+        // console.log(nr1+nr2);
+        // //SUBTRAÇÃO
+        // console.log(nr1-nr2);
+        // //MULTIPLICAÇÃO
+        // console.log(nr1*nr2);
+        // //DIVISÃO
+        // console.log(nr1/nr2);
+
+        // //REPITA AS OPERAÇÕES AGORA ADICIONANDO O TEXTO RESULTADO ANTES DAS OPERAÇÕES:
+        // //ADIÇÃO
+        // //CONCATENAÇÃO
+        // console.log("RESULTADO : " + (nr1+nr2));
+        // console.log(`RESULTADO INTERPOLADO : ${nr1+nr2}`);
+        // //SUBTRAÇÃO
+        // //CONCATENAÇÃO
+        // console.log("RESULTADO : " , (nr1-nr2));
+        // console.log(`RESULTADO INTERPOLADO : ${nr1-nr2}`);
+        // //MULTIPLICAÇÃO
+        // //CONCATENAÇÃO
+        // console.log("RESULTADO : " + (nr1*nr2));
+        // console.log(`RESULTADO INTERPOLADO : ${nr1*nr2}`);
+        // //DIVISÃO
+        // //CONCATENAÇÃO
+        // console.log("RESULTADO : " + (nr1/nr2));
+        // console.log(`RESULTADO INTERPOLADO : ${nr1/nr2}`);
+
+
+
+
+
+
+
+    </script>
+
 
     <section class="conteudo">
-        <div>
-            <img src="./img/lobo1.jpg" alt="lobo">
+        <div class="teste">
+            <img src="./img/lobo1.jpg" alt="Lobo">
             <p>Legenda</p>
         </div>
-
         <div>
-            <img src="./img/lobo2.jpg" alt="lobo">
+            <img src="./img/lobo2.jpg" alt="Lobo">
             <p>Legenda</p>
         </div>
-
         <div>
-            <img src="./img/lobo3.jpg" alt="lobo">
+            <img src="./img/lobo3.jpg" alt="Lobo">
             <p>Legenda</p>
         </div>
-
         <div>
-            <img src="./img/lobo4.jpg" alt="lobo">
+            <img class="teste" src="./img/lobo4.jpg" alt="Lobo">
             <p>Legenda</p>
         </div>
-
         <div>
-            <img src="./img/lobo5.jpg" alt="lobo">
+            <img src="./img/lobo5.jpg" alt="Lobo">
             <p>Legenda</p>
         </div>
-
         <div>
-            <img src="./img/lobo6.jpg" alt="lobo">
+            <img src="./img/lobo6.jpg" alt="Lobo">
             <p>Legenda</p>
         </div>
     </section>
 
-     <table>
+
+    <table class="teste">
         <tr>
             <th>Nome</th>
             <th>Espécie</th>
@@ -65,7 +117,7 @@
             <th>Incidência</th>
         </tr>
         <tr>
-            <td colspan="2">Lupus Canides</td> <!-- junta 2 colunas -->
+            <td colspan="2">Lupus Canides</td>
             <!-- <td>Canídeo</td> -->
             <td>Floresta</td>
             <td>Cinzenta</td>
@@ -79,7 +131,7 @@
             <td>Américas / Europa / Ásia</td>
         </tr>
         <tr>
-            <td rowspan="2">Chrysocyon brachyurus</td> <!-- junta 2 linhas -->
+            <td rowspan="2">Chrysocyon brachyurus</td>
             <td>Canídeo</td>
             <td>Mata Pampas</td>
             <td>Marrom</td>
@@ -96,13 +148,15 @@
     </table>
 
     <footer class="rodape">
-        <h2>Fale Conosco</h2>
-        <nav>
-            <a href=""><img src="./img/social-1.png" alt="GITHUB"></a>
-            <a href=""><img src="./img/social-2.png" alt="facebook"></a>
-            <a href=""><img src="./img/social-3.png" alt="twitter"></a>
+        <h2 class="teste">Fale Conosco</h2>
+
+        <nav class="teste">
+            <a href="#"><img src="./img/social-1-24x.png" alt="Logo Github"></a>
+            <a href="#"><img src="./img/social-2-24x.png" alt="Logo facebook"></a>
+            <a href="#"><img src="./img/social-3-24x.png" alt="Logo twitter"></a>
         </nav>
     </footer>
-
+    
 </body>
+
 </html>
