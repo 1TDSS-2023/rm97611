@@ -23,7 +23,7 @@ function insereNumeroNoVisor(botao,visor) {
 //Desafio 2
 //Utilizando a função eval(expressão)
 //Crie uma nova função no formato ArrowFunction que receba um parâmetro e passe para a função eval() realizar o cálculo e devolva o resultado no visor.
-
+//
 const calculaResultadoOperacoes = (visor)=>{
     visor.value = eval(visor.value);
 }
